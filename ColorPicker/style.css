@@ -10,98 +10,90 @@ body {
 }
 
 .picker-card {
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(12px);
-  border-radius: 20px;
-  width: 300px;
-  text-align: center;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.25);
-  border: 1px solid rgba(255,255,255,0.3);
-  padding: 30px 35px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 30px 35px;
 }
 
 h1 {
-  margin-bottom: 20px;
-  color: #fff;
-  font-size: 30px;
-  font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .pick-label {
-  display: block;
-  margin-bottom: 20px;
-  color: #fff;
-  font-weight: 500;
-  font-size: 15px;
+    display: block;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 input[type="color"] {
-  margin-top: 8px;
-  width: 80%;
-  height: 50px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+    margin-top: 8px;
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 input[type="color"]:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .values, .values2 {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 15px;
 }
 
-#hex, #rgb{
-  background: rgba(255,255,255,0.3);
-  border-radius: 8px;
-  padding: 10px;
-  font-weight: bold;
-  font-size: 13px;
-  color: #222;
-  letter-spacing: 0.5px;
+#hex, #rgb {
+    background: rgba(255,255,255,0.3);
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #222;
+    letter-spacing: 0.5px;
 }
 
 button {
-  padding: 10px;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-  color: white;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 13px;
-  font-weight: 500;
-  transition: transform 0.2s, box-shadow 0.2s;
+    padding: 10px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 
 #msg {
-  margin-top: 8px;
-  color: #00ff95;
-  font-size: 14px;
-  font-weight: 500;
+    margin-top: 8px;
+    color: #00ff95;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 400px) {
-    body {
-        height: 100vh;
-        padding: 0 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     .picker-card {
-        width: 90%; 
+        width: 90%;
         max-width: 300px;
         padding: 25px 25px;
     }
